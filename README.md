@@ -1,23 +1,63 @@
 # DevOps & Production Engineering Journey
 
-A hands-on engineering repository focused on learning, documenting, and implementing production-grade software systems.
+A structured engineering repository focused on learning, documenting, and implementing production-grade software systems.
 
-This repository combines structured learning with practical implementation through a real-world SaaS application.
+The repository combines structured learning with practical application through a real-world multi-tenant SaaS platform.
 
 ---
 
-# Objective
+# Purpose
 
-The goal of this repository is to develop the skills required to design, build, deploy, scale, and maintain modern software systems in production.
+The goal of this repository is to develop the knowledge and practical experience required to design, build, deploy, scale, and maintain modern software systems.
 
-Rather than collecting notes from tutorials, the focus is on:
+The focus is not tutorial completion.
 
-* Understanding core engineering concepts
-* Building practical implementations
-* Applying production best practices
-* Learning system design and architecture
-* Developing cloud and DevOps skills
-* Creating a complete SaaS application from scratch
+The focus is understanding:
+
+* Why technologies exist
+* When they should be used
+* How they work internally
+* How they are implemented
+* How they behave in production environments
+
+---
+
+# Repository Structure
+
+The repository is divided into two areas:
+
+## Learning
+
+Structured learning, documentation, experiments, and implementation exercises.
+
+## Workspace Management SaaS
+
+A practical application used to apply concepts learned throughout the journey.
+
+---
+
+# Repository Layout
+
+```text
+devops/
+
+├── learning/
+│   ├── backend/
+│   ├── database/
+│   ├── docker/
+│   ├── kubernetes/
+│   ├── github-actions/
+│   ├── cloud/
+│   └── system-design/
+│
+├── Workspace Management/
+│   ├── client/
+│   ├── server/
+│   └── docs/
+│
+├── README.md
+└── .gitignore
+```
 
 ---
 
@@ -25,32 +65,33 @@ Rather than collecting notes from tutorials, the focus is on:
 
 ## Backend Engineering
 
-* Authentication & Authorization
-* JWT & Refresh Tokens
+* Authentication
+* Authorization
+* JWT
 * Middleware
 * API Design
-* RESTful Services
 * Error Handling
 * Logging
-* Security Best Practices
+* Security Practices
 
 ## Database Engineering
 
 * PostgreSQL
+* Data Modeling
 * Schema Design
+* Relationships
 * Indexing
-* Query Optimization
 * Transactions
-* Migrations
-* Performance Tuning
+* Query Optimization
 
 ## DevOps
 
-* Git & GitHub
-* CI/CD Pipelines
+* Git
+* GitHub
+* CI/CD
 * GitHub Actions
-* Monitoring
 * Infrastructure Automation
+* Monitoring
 
 ## Containers & Orchestration
 
@@ -66,9 +107,9 @@ Rather than collecting notes from tutorials, the focus is on:
 * AWS IAM
 * EC2
 * S3
+* RDS
 * VPC
 * Load Balancers
-* Cloud Architecture
 
 ## System Design
 
@@ -82,32 +123,41 @@ Rather than collecting notes from tutorials, the focus is on:
 
 ---
 
-# Repository Structure
+# Workspace Management SaaS
+
+The Workspace Management SaaS serves as the practical implementation layer for the learning journey.
+
+Concepts learned in the learning modules are applied within the project.
+
+Examples:
 
 ```text
-devops/
+Authentication
+        ↓
+SaaS Authentication Module
 
-├── backend/
-├── database/
-├── docker/
-├── kubernetes/
-├── github-actions/
-├── cloud/
-├── system-design/
-│
-├── Workspace Management/
-│
-├── README.md
-└── .gitignore
+Authorization
+        ↓
+RBAC System
+
+Database Design
+        ↓
+Multi-Tenant Data Model
+
+Docker
+        ↓
+Application Containerization
+
+AWS
+        ↓
+Cloud Deployment
 ```
 
 ---
 
-# Workspace Management SaaS
+# Project Goals
 
-The repository contains a practical SaaS application used to apply everything learned throughout the journey.
-
-The application is intentionally designed using production-oriented architecture and engineering practices.
+The Workspace Management SaaS is designed to explore production-oriented software architecture and engineering practices.
 
 Core concepts include:
 
@@ -115,36 +165,102 @@ Core concepts include:
 * Authentication
 * Authorization
 * RBAC
-* Activity Logs
+* Teams
 * Project Management
 * Task Management
+* Comments
+* Attachments
 * Notifications
+* Activity Logging
 * API Security
 * Cloud Deployment
-* Monitoring
 
-As new concepts are learned, they are implemented within the SaaS application.
+---
+
+# Technology Stack
+
+## Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+## Backend
+
+* Node.js
+* Express
+* TypeScript
+
+## Database
+
+* PostgreSQL
+* Drizzle ORM
+* Neon PostgreSQL
+
+## Infrastructure
+
+* Docker
+* GitHub Actions
+* AWS
+
+## Future Technologies
+
+* Redis
+* BullMQ
+* WebSockets
+* Kubernetes
 
 ---
 
 # Learning Philosophy
 
-For every topic:
+Every topic follows a consistent process:
 
 1. Learn the concept.
-2. Understand why it exists.
-3. Build a practical implementation.
-4. Document findings and notes.
-5. Study production use cases.
-6. Apply the concept inside the SaaS project.
+2. Understand the problem it solves.
+3. Study implementation details.
+4. Build practical examples.
+5. Explore production use cases.
+6. Apply the concept within the SaaS project.
 
-The objective is to understand both theory and practical implementation.
+The objective is to develop both theoretical understanding and practical engineering skills.
 
 ---
 
-# Long-Term Goal
+# Current Status
 
-Build the knowledge and practical experience required for:
+## Learning Track
+
+Ongoing.
+
+Topics are added progressively as the learning journey advances.
+
+## Workspace Management SaaS
+
+Currently in the Architecture and Design phase.
+
+Completed:
+
+* Product Foundation
+* User Roles
+* Permissions
+* Business Flows
+* Domain Model
+* High-Level Design
+
+Upcoming:
+
+* Entity Relationships
+* Ownership Model
+* API Contracts
+* Low-Level Design
+* Implementation
+
+---
+
+# Long-Term Goals
+
+Develop the skills required for roles such as:
 
 * Backend Engineer
 * DevOps Engineer
@@ -153,4 +269,4 @@ Build the knowledge and practical experience required for:
 * Technical Lead
 * Solution Architect
 
-while developing a deep understanding of production-grade software systems.
+while building a deep understanding of production-grade software systems.
