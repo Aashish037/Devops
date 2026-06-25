@@ -26,18 +26,18 @@ By the end of this section, I should be able to:
 ```text
 backend/
 
-├── authentication/
-├── authorization/
-├── jwt/
-├── middleware/
-├── api-design/
-├── validation/
-├── error-handling/
-├── logging/
-├── security/
-├── testing/
-├── architecture/
-└── notes/
+├── authentication.md
+├── authorization.md
+├── jwt.md
+├── middleware.md
+├── api-design.md
+├── validation.md
+├── error-handling.md
+├── logging.md
+├── security.md
+├── testing.md
+├── architecture.md
+└── notes.md
 ```
 
 ---
